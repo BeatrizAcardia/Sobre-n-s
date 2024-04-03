@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+
+    #navbarNavDropdown{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul{
+        margin-left: -6%;
+    }
+}
+
+@media screen and (max-width: 988px){
+      #escritaPrincipal{
+        font-size: 2em;
+    }
+
+    .texto{
+      width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 470px){
+
+      #escritaPrincipal{
+        font-size: 1.5em;
+      }
+}
+
+@media screen and (max-width: 568px){
+
+      #escritaPrincipal{
+        font-size: 1.6em;
+      }
+}
+
+@media screen and (max-width: 380px){
+
+      #escritaPrincipal{
+        font-size: 1em;
+      }
+}
+
+/*Galaxy Fold*/
+@media screen and (max-width: 320px){
+
+    #escritaPrincipal{
+        font-size: 1.3em;
+     } 
+}
