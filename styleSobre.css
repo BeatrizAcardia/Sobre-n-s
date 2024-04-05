@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F4F4F4;
 }
 
 body{
@@ -195,47 +194,45 @@ button{
 
 /*Fim da NavBar*/
 
-/*Começo do Título Principal*/
+/*Começo do Título*/
 #tituloPrincipal{
   display: flex;
   justify-content: center;
   margin-top: 90px;
-  margin-bottom: 3%;
+  margin-bottom: 20px;
 }
 
-#folha{
-  margin-top: -9px;
-  margin-right: 5px;
-  width: 2.7em;
-  height: 2.7em;
-}
-
-#escritaPrincipal{
+.escrita{
   color: #05440F;
-  font-size: 40px;
+  font-size: 36px;
   text-transform: uppercase;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.422);
 }
-/*Fim do Título Principal*/
+/*Fim do Título*/
 
 /*Começo do texto*/
 
 .texto{
   display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 50%;
+  text-align: justify;
+  width: 60%;
   height: 100%;
   position: absolute;
-  top: 20%;
-  left: 25%;
-  right: 25%;
+  left: 20%;
+  right: 20%;
+  z-index: -1;
 }
 
-.escrita{
-  font-size: 20px;
+.conteudo{
+  font-size: 1.1em;
   text-indent: 3em;
-  margin: 2px;
+  margin: 10px;
 }
 
 /*Fim do texto*/
+
+#tituloSecundario{
+  display: flex;
+  justify-content: center;
+
+}
