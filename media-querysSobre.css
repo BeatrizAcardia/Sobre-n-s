@@ -2,60 +2,62 @@
 
 
 @media screen and (max-width: 988px){
-    #escritaPrincipal{
-      font-size: 2em;
-    }
+  #tituloPrincipal, #tituloSecundario{
+    font-size: 2em;
+  } 
+  #texto{
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 800px) {
-
   #navbarNavDropdown{
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo{
+    font-size: 1.2em;
   }
 
   ul{
-      margin-left: -6%;
+    margin-left: -6%;
   }
 }
 
 
 @media screen and (max-width: 670px){
-
-      .escrita{
-        font-size: 20px;
-      }
-      .conteudo{
-        font-size: 0.65em;
-      }
-      .texto{
-        width: 80%;
-        height: 100%;
-        left: 10%;
-        right: 10%;
-      }
+  #tituloPrincipal, #tituloSecundario{
+    font-size: 30px;
+  }  
+  .conteudo{
+    font-size: 1.2em;
+  }
+  #texto{
+    width: 80%;
+  }
 }
 
 
 @media screen and (max-width: 470px){
-
-  #escritaPrincipal{
-    font-size: 1.5em;
+  .conteudo{
+    font-size: 1.2em;
   }
 }
 
 
 @media screen and (max-width: 380px){
-
-      #escritaPrincipal{
-        font-size: 1em;
-      }
+  #tituloPrincipal, #tituloSecundario{
+    font-size: 25px;
+  }
 }
 
 /*Galaxy Fold*/
 @media screen and (max-width: 320px){
-
-    #escritaPrincipal{
-        font-size: 1.3em;
-     } 
+  #tituloPrincipal, #tituloSecundario{
+    font-size: 1.3em;
+  }
+  .conteudo{
+    font-size: .9em;
+  }
 }
