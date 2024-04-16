@@ -14,6 +14,8 @@ body{
 
 main{
   background-color: #F4F4F4;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /*Começo da NavBar*/
@@ -241,13 +243,14 @@ button{
 #tituloSecundario{
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 50px;
 }
 
 .perfil{
-  border-radius: 50%;
+  border-radius: 100%;
   width: 150px;
+  width: 130px;
 }
 
 .icon{
@@ -262,6 +265,7 @@ button{
   align-items: center;
   align-content: center;
 }
+
 .descricao{
   display: flex;
   align-items: center;
@@ -272,15 +276,45 @@ button{
   background-color: #94B64B;
   box-shadow: 10px 10px 0px #3A7D44;
 
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+  padding: 10px;
 }
+
 .funcao{
   font-weight: bold;
 }
+
 .nome{
   text-transform: uppercase;
   font-size: 22px;
   
   display: flex;
   justify-content: center;
+  text-align: center;
+  
+  margin-bottom: 20px;
 }
+
+.descricao > div > p{
+  margin-top: 10px;
+  text-indent: 2em;
+  margin: 5px;
+}
+
+.icons{
+  margin-top: 25px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center; /* centraliza os ícones horizontalmente */
+  align-items: center; /* centraliza os ícones verticalmente */
+}
+
+.icons .icon {
+  width: 80%; /* Ajuste a largura conforme necessário */
+  max-width: 80%; /* Limite para garantir que não ultrapasse a div */
+}
+
